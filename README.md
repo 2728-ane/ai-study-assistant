@@ -4,7 +4,7 @@ An AI-powered study assistant that helps users understand topics, summarize stud
 
 ## 🌐 Live Demo
 
-[Try the AI Study Assistant](YOUR_RENDER_URL_HERE)
+[Try the AI Study Assistant](https://ai-study-assistant-zmoi.onrender.com)
 
 ## ✨ Features
 
