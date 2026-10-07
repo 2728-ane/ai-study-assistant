@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🤖 AI Study Assistant</h1>
+
+      <p class="subtitle">Learn faster with your AI-powered study companion.</p>
+
+      <div class="modes">
+        <button class="mode-btn active" data-mode="explain">Explain</button>
+
+        <button class="mode-btn" data-mode="summarize">Summarize</button>
+
+        <button class="mode-btn" data-mode="quiz">Quiz Me</button>
+      </div>
+
+      <textarea
+        id="question"
+        placeholder="Example: Explain JavaScript promises in simple terms..."
+      ></textarea>
+
+      <button id="askBtn">Ask AI</button>
+
+      <div class="answer-container">
+        <h2>AI Answer</h2>
+        <p id="answer">Your answer will appear here.</p>
+        <button id="showAnswersBtn" class="hidden">Show Answers</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
