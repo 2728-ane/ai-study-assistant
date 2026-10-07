@@ -47,7 +47,7 @@ askBtn.addEventListener("click", async () => {
 
   try {
     console.log("Sending request to backend...", question, selectedMode);
-    const response = await fetch("http://localhost:3000/api/ask", {
+    const response = await fetch("/api/ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -93,7 +93,7 @@ showAnswersBtn.addEventListener("click", async () => {
   showAnswersBtn.textContent = "Getting answers...";
 
   try {
-    const response = await fetch("http://localhost:3000/api/answers", {
+    const response = await fetch("/api/answers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
